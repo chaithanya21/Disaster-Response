@@ -24,3 +24,35 @@ The Project also includes a **web application** where an emergency worker can in
  `python run.py`
  
  3. Go to http://0.0.0.0:3001/
+ 
+ <h2>Requiremnts</h2>
+ 
+1.pandas
+
+2.sqlalchemy
+
+3.sklearn
+
+4.Flask
+
+Note that for sklearn if you are using the latest version you will get an error. Use 0.20.4 or lower version. To create same python environment use command conda create --name <env_name> --file requirement.txt
+
+ <h2>Results</h2>
+
+<h3>Home Page Of the Web Application</h3>
+
+ <img src='https://github.com/chaithanya21/Disaster-Response/blob/master/IMAGES/HomePage.png' width=800 >
+ 
+ <h2>Example Output</h2>
+ 
+ <h3>Message Recieved</h3>
+ 
+ <img src='https://github.com/chaithanya21/Disaster-Response/blob/master/IMAGES/Input_Message.png'>
+ 
+ <h3>Classification Results</h3>
+ 
+ <img src='https://github.com/chaithanya21/Disaster-Response/blob/master/IMAGES/Result.png'>
+     
+ 
+ 
+ 
